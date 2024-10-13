@@ -75,7 +75,7 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
-              <FormControl>
+              {/* <FormControl>
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
                 <Select
                   id="type"
@@ -88,7 +88,7 @@ const LandingSection = () => {
                   </option>
                   <option value="other">Other</option>
                 </Select>
-              </FormControl>
+              </FormControl> */}
               <FormControl isInvalid={formik.touched.comment && formik.errors.comment}>
                 <FormLabel htmlFor="comment">Your message</FormLabel>
                 <Textarea
