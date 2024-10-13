@@ -16,6 +16,7 @@ import * as Yup from 'yup';
 import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";
 import { useAlertContext } from "../context/alertContext";
+import { fetchApi } from "./api.js"
 
 const LandingSection = () => {
   const { isLoading, response, submit } = useSubmit();
@@ -25,18 +26,24 @@ const LandingSection = () => {
     initialValues: {
       firstName: "",
       email: "",
-      type: "",
       comment: "",
     },
-    onSubmit: (values) => {
+    onSubmit: async (values) => {
       submit(values.firstName);
       formik.resetForm();
+      const sendAPI = {
+        date: Date(),
+        name: values.firstName,
+        email: values.email,
+        message: values.comment,
+      }
+      const sendE = await fetchApi(sendAPI)
+      console.log(sendE)
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Required"),
       email: Yup.string().email("Invalid email address").required("Required"),
-      type: Yup.string(),
-      comment: Yup.string().required("Required").min(25, "Must be at least 25 characters"),
+      comment: Yup.string().required("Required").min(5, "Must be at least 5 characters"),
     }),
   });
 
@@ -47,7 +54,7 @@ const LandingSection = () => {
       // py={16}
       // spacing={8}
       id="contactme-section"
-            minHeight='10vh'
+      minHeight='10vh'
     >
       <VStack w="1024px" p={32} alignItems="flex-start">
         <Heading as="h1" >
