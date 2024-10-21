@@ -1,10 +1,10 @@
-const fullName = 'Lucas Larson'
+const fullName = 'Lucas Luu'
 
 export const content = {
     info: {
         name: fullName,
         email: 'lucas.luu.1990@gmail.com',
-        tel: '+1xxx-xxx-xxxx'
+        tel: '+1-281-317-9507'
     },
     nav: {
         about: 'About Me',
@@ -18,36 +18,36 @@ export const content = {
         bio2: 'specialised in Angular',
     },
     exps: [
-        {
-            title: "XXX | YYY",
-            time: 'Aug 2024 Present',
-            description:
-                "The EVC project's web application provides 24/7 online treatment, diagnosis, and consultation services through MinuteClinic virtual care. Our platform allows patients to effortlessly access affordable virtual care for common illnesses and conditions, all from the comfort and convenience of their own homes",
-            responsibility: [
-                "Developed a Single Page Application (SPA) using HTML5, SCSS, TypeScript, Angular 12, RxJs, Ngrx.",
-                "Extensively used RxJS operators for data handling and NGRX for state management.",
-                "Utilized @Input and @Output decorators for data transfer between parent and child components.",
-                "Designed responsive web using media queries, grid/flex; using @mixins, and @includes to reduce duplicate code.",
-                "Analyzed and performed upgrade from Angular 12 to Angular 17, ensuring compatibility with relevant NGRX and Node.js versions during upgrades.",
-                "Demonstrated expertise in module-based and standalone Angular architecture.",
-                "Created reusable standalone components, pipes, and services to enhance code efficiency and maintainability.",
-                "Learned and built reusable web components with Stencil for easy integration and component sharing.",
-                "Used Axe DevTools to identify and fix accessibility issues, ensuring WCAG compliance.",
-                "Addressed cross-browser and cross-platform compatibility for consistent performance.",
-                "Optimized application performance with lazy loading and preloading strategies.",
-                "Ran JFrog Xray to maintain and update dependencies, addressing codebase vulnerabilities.",
-                "Conducted thorough unit testing with Karma and Jasmine, maintaining over 80% code coverage.",
-                "Developed automated E2E testing scripts using Playwright and Cucumber.js, minimizing manual testing.",
-                "Implemented CI/CD pipelines using CircleCI and Harness.",
-                "Developed RESTful APIs with NestJS to retrieve content from Contentful efficiently.",
-                "Used Confluence to share documentation with the team, serving as a reference for training and development.",
-                "Used GitHub for version control and Rally for Agile project management."
-            ]
+        // {
+        //     title: "XXX | YYY",
+        //     time: 'Aug 2024 Present',
+        //     description:
+        //         "The EVC project's web application provides 24/7 online treatment, diagnosis, and consultation services through MinuteClinic virtual care. Our platform allows patients to effortlessly access affordable virtual care for common illnesses and conditions, all from the comfort and convenience of their own homes",
+        //     responsibility: [
+        //         "Developed a Single Page Application (SPA) using HTML5, SCSS, TypeScript, Angular 12, RxJs, Ngrx.",
+        //         "Extensively used RxJS operators for data handling and NGRX for state management.",
+        //         "Utilized @Input and @Output decorators for data transfer between parent and child components.",
+        //         "Designed responsive web using media queries, grid/flex; using @mixins, and @includes to reduce duplicate code.",
+        //         "Analyzed and performed upgrade from Angular 12 to Angular 17, ensuring compatibility with relevant NGRX and Node.js versions during upgrades.",
+        //         "Demonstrated expertise in module-based and standalone Angular architecture.",
+        //         "Created reusable standalone components, pipes, and services to enhance code efficiency and maintainability.",
+        //         "Learned and built reusable web components with Stencil for easy integration and component sharing.",
+        //         "Used Axe DevTools to identify and fix accessibility issues, ensuring WCAG compliance.",
+        //         "Addressed cross-browser and cross-platform compatibility for consistent performance.",
+        //         "Optimized application performance with lazy loading and preloading strategies.",
+        //         "Ran JFrog Xray to maintain and update dependencies, addressing codebase vulnerabilities.",
+        //         "Conducted thorough unit testing with Karma and Jasmine, maintaining over 80% code coverage.",
+        //         "Developed automated E2E testing scripts using Playwright and Cucumber.js, minimizing manual testing.",
+        //         "Implemented CI/CD pipelines using CircleCI and Harness.",
+        //         "Developed RESTful APIs with NestJS to retrieve content from Contentful efficiently.",
+        //         "Used Confluence to share documentation with the team, serving as a reference for training and development.",
+        //         "Used GitHub for version control and Rally for Agile project management."
+        //     ]
 
-        },
+        // },
         {
             title: "CVS Health | EVC project",
-            time: 'Jun 2022 to Aug 2024',
+            time: 'Jun 2022 to Present',
             description:
                 "The EVC project's web application provides 24/7 online treatment, diagnosis, and consultation services through MinuteClinic virtual care. Our platform allows patients to effortlessly access affordable virtual care for common illnesses and conditions, all from the comfort and convenience of their own homes",
             responsibility: [

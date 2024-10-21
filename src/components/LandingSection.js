@@ -19,7 +19,7 @@ const LandingSection = () => (
   >
     <VStack spacing={8}>
       <VStack spacing={3}>
-        <Avatar name={content.info.name} src={require("../images/image-profolio.webp")} size="2xl" />
+        <Avatar name={content.info.name} src={'nothing'} size="2xl" />
         <Heading size="md">{greeting}</Heading>
       </VStack>
       <Heading size="2xl">{bio1}</Heading>
