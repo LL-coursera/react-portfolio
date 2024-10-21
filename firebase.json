@@ -1,9 +1,14 @@
 {
-  "hosting": [
-    {
-     "site": "lucasluu",
-      "source": ".",
-      "frameworksBackend": {}
+  "hosting": {
+    "source": "newpro",
+    "site":"lucasluu",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
     }
-  ]
+  }
 }
