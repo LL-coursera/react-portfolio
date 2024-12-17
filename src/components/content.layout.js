@@ -46,8 +46,25 @@ export const content = {
 
         // },
         {
+            title: "Smile Texas | Customer manager",
+            time: 'Aug 2024 to Present',
+            description:
+                "The Customer manager is an application that helps the customers to manage the profile and booking for the next visit, and the employee to manage the available time for customers for question and booking. This application solving the conflict when booking with easy way and convention for customer as well as employee.",
+            responsibility: [
+                "Implemented a Single Page Web Application (SPA) based front end for displaying user requests, user records history, and security settings for various users using JavaScript and Angular 17.",
+                "Responsible for setting up the Angular 17 framework for UI development.",
+                "Worked on Angular 17 features like Two-Way Binding, Custom Directives, Controllers, Filters, Services, standalone components and Project Architecture.",
+                "Created view-models and controllers and worked with demo JSON data and services until the API was ready.",
+                "Debugged the code using developer tools and Firebug tools, performing validations by cross-examining the web pages in different browsers. Worked with Jasmine and Karma in testing and performed unit testing.",
+                "Created forms to collect and validate data from the user in HTML and JavaScript.",
+                "Responsible for maintaining versions of source code using Git.",
+                "Tested the created backend services using Node.js, Express.js, and RESTful APIs, and actions routes using Postman.",
+                "Participated in daily Scrum meetings and used AGILE methodologies with JIRA to manage the development process of the project."
+            ]
+        },
+        {
             title: "CVS Health | EVC project",
-            time: 'Jun 2022 to Present',
+            time: 'Jun 2022 to July 2024',
             description:
                 "The EVC project's web application provides 24/7 online treatment, diagnosis, and consultation services through MinuteClinic virtual care. Our platform allows patients to effortlessly access affordable virtual care for common illnesses and conditions, all from the comfort and convenience of their own homes",
             responsibility: [
@@ -124,23 +141,7 @@ export const content = {
                 "Used Git for version control. Performed Test Driven Development (TDD) and pair programming using AGILE/SCRUM methodology."
             ]
         },
-        {
-            title: "Smile Texas | Customer manager",
-            time: 'Apr 2017 to May 2018',
-            description:
-                "The Customer manager is an application that helps the customers to manage the profile and booking for the next visit, and the employee to manage the available time for customers for question and booking. This application solving the conflict when booking with easy way and convention for customer as well as employee.",
-            responsibility: [
-                "Implemented a Single Page Web Application (SPA) based front end for displaying user requests, user records history, and security settings for various users using JavaScript and Angular 6.",
-                "Responsible for setting up the Angular 6 framework for UI development.",
-                "Worked on Angular 6 features like Two-Way Binding, Custom Directives, Controllers, Filters, Services, and Project Architecture.",
-                "Created view-models and controllers and worked with demo JSON data and services until the API was ready.",
-                "Debugged the code using developer tools and Firebug tools, performing validations by cross-examining the web pages in different browsers. Worked with Jasmine and Karma in testing and performed unit testing.",
-                "Created forms to collect and validate data from the user in HTML and JavaScript.",
-                "Responsible for maintaining versions of source code using Git.",
-                "Tested the created backend services using Node.js, Express.js, and RESTful APIs, and actions routes using Postman.",
-                "Participated in daily Scrum meetings and used AGILE methodologies with JIRA to manage the development process of the project."
-            ]
-        },
+
     ],
     skills:{
         title:'My skills',
