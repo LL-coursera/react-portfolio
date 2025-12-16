@@ -1,5 +1,25 @@
 {
+  "targets": {
+    "lewisluu": {
+      "hosting": {
+        "hosting": {
+          "site": "lucasluu",
+          "public": "public"
+        }
+      }
+    }
+  },
   "projects": {
-    "default": "lucasluu"
+    "default": "lewisluu"
   }
+}
+
+{
+  "hosting": [
+    {
+      "site": "eleceed-today",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
 }
