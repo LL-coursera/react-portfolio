@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 const fetchApi = async (data) => {
     try {
-        const response = await axios.post('http://localhost:3000/sent', data);
+        const response = await axios.post('https://nestjs-api.koyeb.app/sent', data);
         SuccessAlert()
         return response;
     } catch (error) {
