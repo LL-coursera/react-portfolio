@@ -2,10 +2,10 @@ name: Deploy to Firebase Hosting on merge
 on:
   push:
     branches:
-        - antra-profolio-v2
+        - lewisluu-v2
   pull_request:
     branches:
-        - antra-profolio-v2
+        - lewisluu-v2
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_and_deploy:
