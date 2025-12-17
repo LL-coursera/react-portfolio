@@ -2,7 +2,7 @@
   "hosting": [
     {
       "site": "lucasluu",
-      "source": "newpro",
+      "source": ".",
       "frameworksBackend": {}
     }
   ]
