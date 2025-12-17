@@ -43,8 +43,26 @@ export const content = {
         //         "Used Confluence to share documentation with the team, serving as a reference for training and development.",
         //         "Used GitHub for version control and Rally for Agile project management."
         //     ]
-
         // },
+        {
+            title: "Dough Perfection Co. | Customer Manager Application  ",
+            time: 'Aug 2024 Present',
+            description:
+                "The Customer Manager application helps customers manage their profiles and bookings for future visits, while employees can efficiently manage available time slots for customer inquiries and bookings. This solution resolves booking conflicts and streamlines interactions for both customers and employees.",
+            responsibility: [
+                "Developed dynamic UI components using Angular 17 & 18, TypeScript, HTML5, CSS, SCSS, Bootstrap, and JavaScript, ensuring compatibility across desktop, tablet, and mobile platforms.",
+                "Built various Angular components, including routes, services, pipes, modules, and directives, following best practices to ensure maintainability and scalability.",
+                `Implemented server-driven form schemas to allow for shared validation and "save and resume" functionality, reducing duplicated frontend logic by 25% and ensuring consistency across product and tenant flows.`,
+                "Created view-models and controllers and used demo JSON data for testing while APIs were in development.",
+                "Debugged and optimized frontend code using developer tools, ensuring cross-browser compatibility and smooth functionality. ",
+                "Enhanced the frontend performance by implementing techniques such as route-level code splitting, lazy loading, and preloading, resulting in a 30% reduction in initial load time.",
+                "Worked on both frontend and backend testing, conducting unit testing using Jasmine and Karma, as well as testing backend services with Node.js, Express.js, and Postman to ensure API reliability.",
+                "Used Git for version control to manage source code, ensuring collaboration and smooth integration with other team members.",
+                "Collaborated with UX/UI designers to refine designs, incorporating feedback into the development process and creating responsive, user-friendly pages based on Figma mocks.",
+                "Contributed to application documentation in Confluence, helping to establish clear guidelines and supporting future development efforts.",
+                "Participated in Agile development, attending daily Scrum meetings and tracking progress using JIRA.",
+            ]
+        },
         {
             title: "CVS Health | EVC project",
             time: 'Jun 2022 to Present',
