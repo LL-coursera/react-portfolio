@@ -7,9 +7,9 @@ export const content = {
         tel: '+1-281-935-3150'
     },
     nav: {
-        about: 'About Me',
         skill: 'Skills',
-        exp: 'Expr',
+        about: 'About Me',
+        exp: 'Experience',
         contact: 'Contact'
     },
     landingSection: {

@@ -30,7 +30,7 @@ const Card = ({ title, description, imageSrc, maxHeight = '300px', maxWidth = '4
                   Time: {time}
                 </Heading>
               }
-              <Text>{description}</Text>
+              <Text fontSize="lg">{description}</Text>
               {!skills &&
                 (<HStack spacing={2} onClick={toggleDetails} style={{ cursor: 'pointer' }}>
                   <Text fontWeight="bold" >Responsibility</Text>
@@ -40,7 +40,7 @@ const Card = ({ title, description, imageSrc, maxHeight = '300px', maxWidth = '4
               {showDetails && (
                 <UnorderedList>
                   {detail.map((each, i) => (
-                    <ListItem key={i}>{each}</ListItem>
+                    <ListItem key={i} fontSize="md">{each}</ListItem>
                   ))}
                 </UnorderedList>
               )}
