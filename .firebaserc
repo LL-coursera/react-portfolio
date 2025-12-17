@@ -13,13 +13,3 @@
     "default": "lewisluu"
   }
 }
-
-{
-  "hosting": [
-    {
-      "site": "eleceed-today",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
-}
