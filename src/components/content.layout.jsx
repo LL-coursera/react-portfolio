@@ -50,18 +50,19 @@ export const content = {
             description:
                 "The Customer Manager application helps customers manage their profiles and bookings for future visits, while employees can efficiently manage available time slots for customer inquiries and bookings. This solution resolves booking conflicts and streamlines interactions for both customers and employees.",
             responsibility: [
-                "Developed dynamic UI components using Angular 17 & 18, TypeScript, HTML5, CSS, SCSS, Bootstrap, and JavaScript, ensuring compatibility across desktop, tablet, and mobile platforms.",
-                "Built various Angular components, including routes, services, pipes, modules, and directives, following best practices to ensure maintainability and scalability.",
-                `Implemented server-driven form schemas to allow for shared validation and "save and resume" functionality, reducing duplicated frontend logic by 25% and ensuring consistency across product and tenant flows.`,
-                "Created view-models and controllers and used demo JSON data for testing while APIs were in development.",
-                "Debugged and optimized frontend code using developer tools, ensuring cross-browser compatibility and smooth functionality. ",
-                "Enhanced the frontend performance by implementing techniques such as route-level code splitting, lazy loading, and preloading, resulting in a 30% reduction in initial load time.",
-                "Worked on both frontend and backend testing, conducting unit testing using Jasmine and Karma, as well as testing backend services with Node.js, Express.js, and Postman to ensure API reliability.",
-                "Used Git for version control to manage source code, ensuring collaboration and smooth integration with other team members.",
-                "Collaborated with UX/UI designers to refine designs, incorporating feedback into the development process and creating responsive, user-friendly pages based on Figma mocks.",
-                "Contributed to application documentation in Confluence, helping to establish clear guidelines and supporting future development efforts.",
-                "Participated in Agile development, attending daily Scrum meetings and tracking progress using JIRA.",
-            ]
+                "Developed dynamic UI components using Angular 17, 18, & 19, TypeScript, HTML5, CSS, SCSS, and Bootstrap, ensuring responsiveness across devices.",
+                "Built Angular components such as routes, services, pipes, and directives, following best practices for maintainability and scalability, integrating Spring Boot REST APIs for backend data.",
+                "Implemented server-driven form schemas to enable shared validation and 'save and resume' functionality, reducing frontend logic duplication by 25%.",
+                "Created view-models and controllers, working with demo JSON data during API development. Optimized frontend code for cross-browser compatibility and performance.",
+                "Enhanced frontend performance with techniques like lazy loading, preloading and code splitting, cutting initial load time by 30%.",
+                "Debugged and optimized frontend code using developer tools, ensuring cross-browser compatibility and smooth functionality.",
+                "Developed backend services using Spring Boot for REST APIs, Spring Batch for data processing, and Spring Kafka for real-time messaging between microservices.",
+                "Utilized JPA for database integration with Postgres to manage customer profiles and booking data.",
+                "Tested frontend and backend components using Jasmine, Karma, Postman, and Spring Boot testing tools to ensure reliability.",
+                "Performed API testing with JMeter to ensure API performance, scalability, and reliability, simulating various load scenarios to identify potential bottlenecks and optimize response times.",
+                "Used Git for version control and collaborated with UX/UI designers, integrating feedback into responsive, user-friendly pages based on Figma designs.",
+                "Contributed to Confluence documentation and participated in Agile development, attending Scrum meetings and tracking progress in JIRA."
+              ]              
         },
         {
             title: "CVS Health | EVC project",
