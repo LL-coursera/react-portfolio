@@ -3,7 +3,7 @@ const fullName = 'Lewis Luu'
 export const content = {
     info: {
         name: fullName,
-        email: 'Lewis.luu.1990@gmail.com',
+        email: 'loc.luu.1990@gmail.com',
         tel: '+1-281-935-3150'
     },
     nav: {
