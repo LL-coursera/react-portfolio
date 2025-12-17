@@ -4,7 +4,7 @@ export const content = {
     info: {
         name: fullName,
         email: 'lucas.luu.1990@gmail.com',
-        tel: '+1-281-317-9507'
+        tel: '+1-281-935-3150'
     },
     nav: {
         about: 'About Me',
