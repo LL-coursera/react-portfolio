@@ -19,6 +19,6 @@ jobs:
             firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEWISLUU }}'
             projectId: lewisluu
             channelID : live
-            target: lucasluu
+            target: lewisluu
         env:
             FIREBASE_CLI_EXPERIMENTS: webframeworks

@@ -176,8 +176,13 @@ function SkillsSection() {
           </VStack>
         </Box>
       </HStack>
+    </FullScreenSection>
+  );
+}
 
-      {/* Project cards display */}
+export default SkillsSection;
+/**
+
       <Box
         display="grid"
         gridTemplateColumns="repeat(5, minmax(0, 1fr))"
@@ -195,15 +200,9 @@ function SkillsSection() {
           />
         ))}
       </Box>
-
-      {/* Show More button */}
       {visibleCount < projects.length && (
         <Button onClick={handleShowMore} variant="contained" color="primary" mt={4}>
           Show More
         </Button>
-      )}
-    </FullScreenSection>
-  );
-}
-
-export default SkillsSection;
+      )} 
+ */
