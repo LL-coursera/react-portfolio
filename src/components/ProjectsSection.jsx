@@ -14,7 +14,8 @@ const ProjectsSection = () => {
       py={16}
       spacing={8}
       p={8}
-      alignItems="flex-start"
+      display="flex"      
+      justifyContent="space-around" 
       id="projects-section"
     >
       <Heading as="h1" >

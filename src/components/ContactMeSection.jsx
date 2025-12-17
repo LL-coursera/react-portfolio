@@ -12,11 +12,11 @@ import {
   Textarea,
   VStack,
 } from "@chakra-ui/react";
-import * as Yup from 'yup';
+import * as Yup from "yup";
 import FullScreenSection from "./FullScreenSection.jsx";
 import useSubmit from "../hooks/useSubmit.jsx";
 import { useAlertContext } from "../context/alertContext.jsx";
-import { fetchApi } from "./api.jsx"
+import { fetchApi } from "./api.jsx";
 
 const LandingSection = () => {
   const { isLoading, response, submit } = useSubmit();
@@ -36,15 +36,17 @@ const LandingSection = () => {
         name: values.firstName,
         email: values.email,
         message: values.comment,
-        host: 'Lucas Luu',
-      }
-      const sendE = await fetchApi(sendAPI)
-      console.log(sendE)
+        host: "Lucas Luu",
+      };
+      const sendE = await fetchApi(sendAPI);
+      console.log(sendE);
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Required"),
       email: Yup.string().email("Invalid email address").required("Required"),
-      comment: Yup.string().required("Required").min(5, "Must be at least 5 characters"),
+      comment: Yup.string()
+        .required("Required")
+        .min(5, "Must be at least 5 characters"),
     }),
   });
 
@@ -54,17 +56,18 @@ const LandingSection = () => {
       backgroundColor="#512DA8"
       // py={16}
       // spacing={8}
+
       id="contactme-section"
-      minHeight='10vh'
+      minHeight="10vh"
     >
-      <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" >
-          Contact me
-        </Heading>
+      <VStack w="1024px" p={32} display="flex" justifyContent="space-around">
+        <Heading as="h1">Contact me</Heading>
         <Box p={6} rounded="md" w="100%">
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={2}>
-              <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
+              <FormControl
+                isInvalid={formik.touched.firstName && formik.errors.firstName}
+              >
                 <FormLabel htmlFor="firstName">Name</FormLabel>
                 <Input
                   id="firstName"
@@ -73,7 +76,9 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
-              <FormControl isInvalid={formik.touched.email && formik.errors.email}>
+              <FormControl
+                isInvalid={formik.touched.email && formik.errors.email}
+              >
                 <FormLabel htmlFor="email">Email Address</FormLabel>
                 <Input
                   id="email"
@@ -97,7 +102,9 @@ const LandingSection = () => {
                   <option value="other">Other</option>
                 </Select>
               </FormControl> */}
-              <FormControl isInvalid={formik.touched.comment && formik.errors.comment}>
+              <FormControl
+                isInvalid={formik.touched.comment && formik.errors.comment}
+              >
                 <FormLabel htmlFor="comment">Your message</FormLabel>
                 <Textarea
                   id="comment"
@@ -107,7 +114,12 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
-              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
+              <Button
+                type="submit"
+                colorScheme="purple"
+                width="full"
+                isLoading={isLoading}
+              >
                 Submit
               </Button>
             </VStack>
