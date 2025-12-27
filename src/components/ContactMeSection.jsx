@@ -36,7 +36,7 @@ const LandingSection = () => {
         name: values.firstName,
         email: values.email,
         message: values.comment,
-        host: "Lewis Luu",
+        host: "Lucas Luu",
       };
       const sendE = await fetchApi(sendAPI);
       console.log(sendE);
