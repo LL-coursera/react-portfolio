@@ -1,9 +1,9 @@
-const fullName = "Lewis Luu";
+const fullName = "Lucas Luu";
 
 export const content = {
   info: {
     name: fullName,
-    email: "loc.luu.1990@gmail.com",
+    email: "lucasluuus1999@gmail.com",
     tel: "+1-281-935-3150",
   },
   nav: {
